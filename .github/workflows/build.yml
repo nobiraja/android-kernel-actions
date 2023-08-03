@@ -15,7 +15,7 @@ jobs:
     - name: Checkout zipper
       uses: actions/checkout@v2
       with:
-        repository: Amritorock/kernel_realme_r5x
+        repository: nobiraja/android_kernel_msm-5.4_oneplus_sm6375
         path: zipper
 
     - name: Android kernel build
