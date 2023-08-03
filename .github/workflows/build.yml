@@ -26,7 +26,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/10
-        defconfig: vendor/RMX1911_defconfig
+        defconfig: vendor/genericarmv8-64_defconfig
         image: Image.gz-dtb
 
     - name: Release build
